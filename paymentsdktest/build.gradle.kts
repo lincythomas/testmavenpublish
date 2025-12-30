@@ -49,7 +49,7 @@ mavenPublishing {
     publishToMavenCentral()
     signAllPublications()
 
-    coordinates("com.jiocoders", "PaymentSDK", "1.0.4")
+    coordinates("com.jiocoders", "PaymentSDK", "1.0.5")
 
     pom {
         name = "PaymentSDK"
@@ -87,6 +87,7 @@ signing{
             localProperties["signing.password"].toString()
         )
     }
+
 dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
